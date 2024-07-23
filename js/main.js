@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Inicializar el mapa centrado en las coordenadas de la primera diapositiva
-    var map = L.map('map').setView([40.7128, -74.0060], 12);
+    var map = L.map('map').setView([4.660602, -74.085411], 12);
 
     // Agregar capa base de OpenStreetMap
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
